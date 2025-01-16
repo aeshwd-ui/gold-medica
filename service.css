@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.services{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   max-width: 800px;
+   padding: 10px;
+  
+   gap: 10px;
+   margin: 20px auto;
+   width: 100vw;
+   border: 2px solid black;
+   
+}
+
+
+
+marquee{
+   padding: 10px;
+   background-color: #3E8DA8;
+   color: white;
+}
+
+marquee h3{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+

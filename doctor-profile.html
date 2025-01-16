@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor Profile | Gold Medica</title>
+  <link rel="shortcut icon" href="images/logo/gold medica logo.png" type="image/x-icon">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+
+     <!--Bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+     <!--Font Awesome-->
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f8fb;
+      text-align: center;
+    }
+    .doctor-profile {
+      max-width: 600px;
+      margin: 200px auto 50px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      padding: 20px;
+      text-align: center;
+    }
+     .doctor-profile img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #007BFF;
+    }
+    .doctor-profile h2 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .doctor-profile p {
+      color: #555;
+      font-size: 16px;
+      margin: 5px 0;
+    }
+    .opd-box {
+      background-color: #eaf4fc;
+      border: 2px solid #007BFF;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 8px;
+      color: #007BFF;
+      font-weight: bold;
+    }
+    .appointment-section {
+      background-color: #f9f9f9;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .appointment-section h3 {
+      color: #333;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .appointment-section p {
+      color: #555;
+    }
+    .appointment-section a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .appointment-section a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+
+     <!--Top Nav-->
+     <div class="top-nav">
+        <div class="top-left">
+         <a href="index.html">  <img src="images/logo/gold medica logo.png" alt="logo"> </a> 
+        </div>
+        <div class="top-right">
+            <a href="tel:+919119100001"><button><i class="fa-solid fa-phone"></i>+91 9119100001</button></a>
+        </div>
+     </div>
+
+     <nav>
+        <div class="navbar">
+          <i class='bx bx-menu'></i>
+          <div class="logo"><a href="index.html">Gold Medica</a></div>
+          <div class="nav-links">
+            <div class="sidebar-logo">
+              <span class="logo-name">GOLD MEDICA</span>
+              <i class='bx bx-x' ></i>
+            </div>
+            <ul class="links">
+              <li><a href="index.html">HOME</a></li>
+              <li>
+                <a href="services.html">SERVICES</a>
+                <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                <ul class="htmlCss-sub-menu sub-menu">
+                  <li><a href="service-details.html?id=1">Vascular Surgery</a></li>
+                  <li><a href="service-details.html?id=2">Neurosurgery</a></li>
+                  <li><a href="service-details.html?id=3">Pulmonology</a></li>
+                  <li><a href="service-details.html?id=4">Nephrology</a></li>
+                  <li><a href="service-details.html?id=5">Urology</a></li>
+                  <li><a href="service-details.html?id=6">Gynecology</a></li>
+                  <li><a href="services.html">More Services</a></li>
+                  
+                  <!--
+                  <li class="more">
+                    <span><a href="#">More</a>
+                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                  </span>
+                    <ul class="more-sub-menu sub-menu">
+                      <li><a href="#">Neumorphism</a></li>
+                      <li><a href="#">Pre-loader</a></li>
+                      <li><a href="#">Glassmorphism</a></li>
+                    </ul>
+                  </li>  -->
+                </ul>
+              </li>
+             
+              <li><a href="index.html#doctors">DOCTORS</a></li>
+              <li><a href="careers.html">CAREERS</a></li>
+              <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+          </div>
+        
+        </div>
+      </nav>
+
+  <div class="doctor-profile">
+    <img id="doctor-img" alt="Doctor Photo">
+    <h2 id="doctor-name"></h2>
+    <p id="doctor-profession"></p>
+    <p id="doctor-experience"></p>
+    <p id="doctor-degree"></p>
+    <p id="doctor-details"></p>
+    <div class="opd-box">
+      OPD Timing: Monday to Friday (9 AM to 4 PM) with prior appointment only
+    </div>
+    <div class="appointment-section">
+      <h3>Book an Appointment</h3>
+      <p>Please call us on:</p>
+      <p id="doctor-phone" style="font-size: 18px; font-weight: bold;"></p>
+      <a href="tel:+919119100001" id="appointment-link">Call Now</a>
+    </div>
+  </div>
+
+
+   <!-- Fixed Call Button -->
+ <a href="tel:+911234567890" class="call-button">
+    <i class="fa-solid fa-phone-volume"></i>
+    <span>Call Now</span>
+  </a>
+
+
+  <!--Map Section-->
+<section class="contact-section" style="margin-bottom: 30px;">
+    <div class="contact-container">
+      
+  
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Contact Us</h3>
+        <p><i class="fas fa-phone"></i> Phone: +91 9119100001</p>
+        <p><i class="fas fa-envelope"></i> Email: contact@hospital.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Address: Near Power Grid, Power House Road, Bathinda, Punjab</p>
+      </div>
+  
+      <!-- Map Section -->
+      <div class="map" style="margin-bottom: 30px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3448.0237994794384!2d74.95298767539725!3d30.207868174841806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39173318d7630ecf%3A0xcd2a4243570365a7!2sGold%20Medica%20Superspeciality%20Hospital!5e0!3m2!1sen!2sin!4v1736944824174!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+  
+  <!--Footer Section-->
+  <footer class="bg-body-tertiary text-center">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+        data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+     <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    <h5 style="font-size: 1.2rem;"> Copyright  © 2025 : <a class="text-body" style="text-transform: none;" href="#"> <br>Gold Medica Hospital </a> | All Rights Reserved </h5>  <br>
+
+    <a href="tel:+916280144157"><p style="font-size: 0.6rem;">Website Developed by Aesh Goswami</p> </a>
+  </div>
+  <!-- Copyright -->
+  </footer>
+  <script>
+    // Fetch doctor details from localStorage
+    const doctor = JSON.parse(localStorage.getItem("selectedDoctor"));
+
+    // Display doctor details
+    if (doctor) {
+      document.getElementById("doctor-img").src = doctor.img;
+      document.getElementById("doctor-name").innerText = doctor.name;
+      document.getElementById("doctor-profession").innerText = doctor.profession;
+      document.getElementById("doctor-experience").innerText = `Experience: ${doctor.experience}`;
+      document.getElementById("doctor-degree").innerText = `Degree: ${doctor.degree}`;
+      document.getElementById("doctor-details").innerText = doctor.details;
+
+      // Appointment Information
+      const phone = doctor.contact ? doctor.contact.phone : "+91 9119100001";
+      document.getElementById("doctor-phone").innerText = phone;
+      const appointmentLink = document.getElementById("appointment-link");
+      appointmentLink.href = `tel:${phone}`;
+    } else {
+      document.body.innerHTML = "<h1>No doctor data available</h1>";
+    }
+  </script>
+</body>
+<script src="script.js"></script>
+</html>
